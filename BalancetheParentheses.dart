@@ -20,7 +20,7 @@ void main() {
   print("Enter a string with parentheses: ");
   String userInput = stdin.readLineSync() ?? "";
   
-  bool result = isBalancedParentheses(userInput);
+  bool result = isBalanced(userInput);
 
   if (result) {
     print("Parentheses are balanced.");
